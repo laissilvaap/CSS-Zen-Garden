@@ -1,0 +1,13 @@
+/* Color Theme Swatches in Hex */
+/*
+.principal { color: #FF4858; }
+.Copy-of-Copy-of-Coral-Teal-Gray-2-hex { color: #1B7F79; }
+.Copy-of-Copy-of-Coral-Teal-Gray-3-hex{ color: #00CCC0; }
+.background { color: #72F2EB; }
+.Copy-of-Copy-of-Coral-Teal-Gray-5-hex { color: #747F7F; }
+*/
+
+html {
+    background: #72F2EB ;
+    color: #FF4858 ;
+}
