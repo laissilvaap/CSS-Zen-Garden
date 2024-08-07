@@ -6,7 +6,7 @@ html{
  background-color: #F2E7DC;
  color: #666666;
  font-size: 18px;
- font-family: sans-serif;
+ font-family: 'Arial';
 }
 
 p {
@@ -141,7 +141,32 @@ aside ul li {
 .participation h3 {
     align-self: center;
 }
-   
+
+a {
+    color: #FF4858;
+    font-weight: 600;
+}
+
+a:hover {
+    color:#F2955E;
+    font-weight: 300;
+}
+
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Trebuchet MS';
+    float: left;
+}
+
+.design-selection li {
+    border-top:  #FF4858 solid 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom:  #FF4858 solid 1px;
+    padding-bottom: 5px;
+}
 
 
 
