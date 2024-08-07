@@ -87,4 +87,26 @@ aside ul li {
 }
 
 
+ .page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: #FF4858  solid 1px;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 460px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+   
+
+
+
 
