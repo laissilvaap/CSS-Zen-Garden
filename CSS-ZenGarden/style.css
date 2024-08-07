@@ -39,6 +39,52 @@ h3 {
 abbr {
     font-variant: small-caps;
 }
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
 }
+
+#zen-intro {
+    height: 550px;
+}
+
+.design-archives {
+    display: none;
+}
+
+#zen-intro header {
+background-color: # #F2E7DC;
+color: #FF4858;
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+
+#zen-intro header h1 {
+    margin: 0 1em 0;
+}
+
+aside ul {
+    list-style:none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+.main footer {
+    margin: 4%
+}
+
+.main footer a {
+    border: solid 2px #0D0000;
+    padding: 0.5em;
+    display: inline-block;
+}
+
 
 
