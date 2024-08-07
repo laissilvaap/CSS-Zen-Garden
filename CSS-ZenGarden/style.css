@@ -68,7 +68,7 @@ color: #FF4858;
 }
 
 aside ul {
-    list-style:none;
+    list-style: none;
 }
 
 aside ul li {
@@ -81,7 +81,7 @@ aside ul li {
 }
 
 .main footer a {
-    border: solid 2px #0D0000;
+    border: solid 2px #FF4858;;
     padding: 0.5em;
     display: inline-block;
 }
