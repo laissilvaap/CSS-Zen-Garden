@@ -200,6 +200,16 @@ a:hover {
         background-color: white;
         color: #666666
     }
+
+    #design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width:100%;
+    }
 }
 
 
