@@ -45,6 +45,8 @@ aside ul li {
 }
 
 .main footer {
+    position:relative;
+    top: 430px;
     margin: 4%;
 }
 
@@ -77,6 +79,7 @@ h2 {font-size: 1.4rem;}
 h3 {font-size: 1.2rem;}
 
 .summary {text-align: right;}
+
 .main p {line: 1.5;}
 
 abbr {font-variant: small-caps;}
@@ -89,14 +92,16 @@ abbr {font-variant: small-caps;}
     width: 60%;
     border-right: solid 1px #FF4858;
     padding-right: 2%;
+    position: absolute;
+    top: 500px;
 }
 
 #design-selection {
     position: absolute;
-    top: 410px;
+    top: 430px;
     left: 62%;
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 34%;
+    padding: 0 2%; 
 }
 
 .supporting footer {
@@ -105,6 +110,8 @@ abbr {font-variant: small-caps;}
 }
 
 .benefits {
+    position: relative;
+    top: 400px;
     display: flex;
     border-top: #FF4858 solid 1px;
     border-bottom: #FF4858 solid 1px;
@@ -121,9 +128,10 @@ abbr {font-variant: small-caps;}
 }
 
 .participation {
-    display: flex;
+    position: relative;
     flex-wrap: wrap;
-    border-top: #FF4858 solid 1px; 
+    border-top: #FF4858 solid 1px;
+    top: 350px;
 }
 
 .participation h3, .participation p {
@@ -158,3 +166,24 @@ a:hover {
     padding-bottom: 5px;
 }
 
+.requirements {
+    position: relative;
+    top: 400px;
+}
+
+.zen-resources {
+    position: relative;
+    top: 480px;
+}
+
+@media  screen and (max-widht: 768px) {
+    .design-selection {
+
+
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+        color:black;
+    }
